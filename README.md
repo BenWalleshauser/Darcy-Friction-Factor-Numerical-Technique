@@ -1,2 +1,2 @@
 # Darcy-Friction-Factor-Numerical-Technique
-Created this code to help find the Darcy friction factor for a turbulent flow without having to manual iterate. Uses the Haaland Equation to get an initial guess then uses Newton's Method to iterate to a solution.
+This code uses Newton's method to numerically find a solution for the Darcy friction factor constrained by the Colebrook-White equation. The Darcy friction factor is best described by the Colebrrok-White equation when the flow is turbulent and completely fills a pipe. The method used in this code utilizes Haaland's equation to get an initial guess, and then uses Newton's method to iterate to a more precise solution.
