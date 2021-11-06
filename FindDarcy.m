@@ -1,11 +1,11 @@
 function f = FindDarcy(k,Re)
-%Finds Darcy friction factor for turbulent flow using Newtons Method
+%Finds a numerical solution for the Darcy friction factor described by the Colebrook-White equation
 
 %k = Relative roughness
 %Re = Reynolds number
 %f = Darcy friction factor
 
-%Number of iterations to run for (100 is more than enough)
+%Number of iterations to run for
 its = 100;
 
 %Initial guess (using the Haaland equation as an estimation)
